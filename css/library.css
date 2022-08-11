@@ -3,6 +3,7 @@
         --primary-color: #0065FC;
         --secondary-color: #DEEBFF;
         --background-color: #F2F2F2;
+        --shadow-color: #dddcdcab;
     /*padding*/
         --body-padding: 100px;
     /*fontsize*/
@@ -19,6 +20,7 @@ body {
 /*HEADER*/
 nav {
     font-size: var(--H3P1Size);
+    color: black;
 }
 
 h1 h2 {
@@ -28,6 +30,11 @@ h1 h2 {
 
 h3 {
     font-size: var(--H3P1Size);
+    color: black;
+}
+
+strong, .stars {
+    color: var(--primary-color);
 }
 
 .p1 {
@@ -50,3 +57,6 @@ h3 {
     font-size: var(--P3Size);
 }
 
+.cardP_text p {
+    font-size: var(--P3Size);
+}
