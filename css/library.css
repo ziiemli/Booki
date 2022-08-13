@@ -53,8 +53,17 @@ strong, .stars {
     font-size: var(--P2Size);
 }
 
+.filters_part p {
+    font-weight: bold;
+}
+
 .cardH p {
     font-size: var(--P3Size);
+}
+
+.cardH_more {
+    color: black;
+    font-size: var(--H3P1Size)
 }
 
 .cardP_text p {
