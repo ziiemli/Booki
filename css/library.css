@@ -57,6 +57,10 @@ strong, .stars {
     font-weight: bold;
 }
 
+.i_logo i{
+    color: var(--primary-color);
+}
+
 .cardH p {
     font-size: var(--P3Size);
 }
@@ -68,4 +72,13 @@ strong, .stars {
 
 .cardP_text p {
     font-size: var(--P3Size);
+}
+
+footer p {
+    font-size: var(--P2Size);
+    font-weight: bold;
+}
+
+footer a {
+    color: black;
 }
