@@ -50,10 +50,10 @@
                             <i class="fa-solid fa-location-dot"></i>
                         </div>
                         <div class="search_bar">
-                            <input type="text" name="search" placeholder="Recherchez-ici !">     
+                            <input type="search" name="search" placeholder="Recherchez-ici !">     
                         </div>
                         <div class="search_button">
-                            <p>Rechercher</p> 
+                            <input type="button" placeholder="Rechercher">
                         </div>
                     </form>   
             </div>
@@ -104,7 +104,6 @@
                 <div class="i_logo">
                     <i class="fa-solid fa-info fa-2xs"></i>    
                 </div>
-                
                 <p>Plus de 500 logements sont disponibles dans cette ville</p>
             </div>
             
@@ -115,7 +114,7 @@
                     <div class="H_container">
                         <h1>Hébergements à Marseille</h1>
                         <div class="cardH_container">
-                            <article class="cardH">
+                             <article class="cardH">
                                 <a href="#">
                                     <div class="cardH_img">
                                         <img src="assets/hebergements/AubergeLaCannebiere_small.jpg" alt="Auberge La Cannebière">
@@ -124,11 +123,11 @@
                                         <h3>Auberge La Cannebière</h3>
                                         <p>Nuit à partir de <strong>25€</strong></p>
                                         <div class="stars">
-                                            <i class="fa-solid fa-star fa-2xs"></i>
-                                            <i class="fa-solid fa-star fa-2xs"></i>
-                                            <i class="fa-solid fa-star fa-2xs"></i>
-                                            <i class="fa-solid fa-star fa-2xs"></i>
-                                            <i class="fa-regular fa-star fa-2xs"></i>
+                                            <i class="fa-solid fa-star fa-2xs" id="star"></i>
+                                            <i class="fa-solid fa-star fa-2xs" id="star"></i>
+                                            <i class="fa-solid fa-star fa-2xs" id="star"></i>
+                                            <i class="fa-solid fa-star fa-2xs" id="star"></i>
+                                            <i class="fa-solid fa-star fa-2xs" id="star_gray"></i>
                                         </div>
                                     </div> 
                                 </a>   
@@ -304,8 +303,7 @@
             </main>
 
             <!--ACTIVITIES-->
-            <div>
-               <div class="A_container">
+            <div class="A_container">
                     <h2>Activités à Marseille</h2>
                     <div>
                         <div class="cardA_container">
@@ -376,48 +374,49 @@
                         </div>
                     </div>
                </div> 
-            </div>
-        </div>
+            </div>   
+        
 
             <!--FOOTER-->
         <footer>
-            <div class="footer_category">
-                <p>A propos</p>
-                <ul>
-                    <li>
-                        <a href="#">Fonctionnement du site</a>
-                    </li>
-                    <li>
-                        <a href="#">Conditions générales de vente</a>
-                    </li>
-                    <li>
-                        <a href="#">Données et confidentialité</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="footer_category">
-                <p>Nos hébergements</p>
-                <ul>
-                    <li>
-                        <a href="#">Charte qualité</a>
-                    </li>
-                    <li>
-                        <a href="#">Soumettre votre hôtel</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="footer_category">
-                <p>Assistance</p>
-                <ul>
-                    <li>
-                        <a href="#">Centre d'aide</a>
-                    </li>
-                    <li>
-                        <a href="#">Nous contacter</a>
-                    </li>
-                </ul>
-            </div>
-        </footer>
-        
+            <div class="footer_container">
+                <div class="footer_category">
+                    <p>A propos</p>
+                    <ul>
+                        <li>
+                            <a href="#">Fonctionnement du site</a>
+                        </li>
+                        <li>
+                            <a href="#">Conditions générales de vente</a>
+                        </li>
+                        <li>
+                            <a href="#">Données et confidentialité</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer_category">
+                    <p>Nos hébergements</p>
+                    <ul>
+                        <li>
+                            <a href="#">Charte qualité</a>
+                        </li>
+                        <li>
+                            <a href="#">Soumettre votre hôtel</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer_category">
+                    <p>Assistance</p>
+                    <ul>
+                        <li>
+                            <a href="#">Centre d'aide</a>
+                        </li>
+                        <li>
+                            <a href="#">Nous contacter</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>    
+        </footer>      
     </body>
 </html>

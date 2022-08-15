@@ -11,27 +11,30 @@ body {
 }
 
 .container {
-    max-width: 1368px;
+    max-width: 992px;
     max-height: 100%;
     background-color: aqua;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 
 /*HEADER*/
 header {
-    height: 113px;
+    height: 77px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 16px;
+    padding-left: 14px;
+    padding-right: 19px;
 }
 
 header img {
-    width: 95.5px;
+    width: 66px;
     height: auto;
 }
 
 nav ul{
-    width: 246px;
+    width: 166px;
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -44,21 +47,25 @@ nav ul li a {
 /*INFORMATIONS*/
 
 .informations {
-    height: 56px; 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
+.informations h2 {
+    margin-bottom: 12px;
+}
+
 .search {
-    height: 104px;
+    height: 69px;
     display: flex;
-    align-items: center;
+    padding-top: 14px;
+    padding-bottom: 22px;
 }
 
 form {
-    width: 430px;
-    height: 54px;
+    width: 289px;
+    height: 35px;
     display: flex;
 }
 
@@ -69,7 +76,7 @@ form {
     align-items: center;
     justify-content: center;
     background-color: var(--background-color);
-    border-radius: 20px 0px 0px 20px;
+    border-radius: 10px 0px 0px 10px;
 }
 
 .search_bar {
@@ -78,11 +85,14 @@ form {
     display: flex;
     align-items: center;
     justify-content: start ;
-    padding-left: 18px;
     background-color: white;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
-input {
+
+.search_bar input {
+    width: 100%;
     height: 24px;
     border: none;
 }
@@ -93,8 +103,15 @@ input {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.search_button input {
+    width: 100%;
+    height: 100%;
     background-color: var(--primary-color);
-    border-radius: 0px 20px 20px 0px;
+    border-radius: 0 10px 10px 0;
+    border: none;
 }
 
 /*FILTRES*/
@@ -106,7 +123,7 @@ input {
 }
 
 .filters_title {
-    padding: 0px 38px 0px 8px;
+    padding: 0px 23px 0px 7px;
 }
 
  .filters_container {
@@ -118,28 +135,28 @@ input {
 
 .filters {
     width: auto;
-    height: 50px;
+    height: 34px;
     display: flex;
     align-items: center;
     border: 2px solid;
     border-left: none;
     border-color: var(--background-color);
     border-radius: 30px;
-    margin-right: 25px;
+    margin-right: 17px;
 }
 
 .filters_text {
-    padding: 0 22px 0 14px;
+    padding: 0 18px 0 10px;
 }
 
 .filters_logo {
-    width: 50px;
-    height: 50px;
+    width: 34px;
+    height: 34px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--secondary-color);
-    border-radius: 30px;
+    border-radius: 20px;
     z-index: 1;
 }
 
@@ -151,14 +168,14 @@ input {
 /*i*/
 
 .i {
-    height: 100px; 
+    height: 67px; 
     display: flex;
     align-items: center;
 }
 
 .i_logo {
-    width: 24px;
-    height: 24px;
+    width: 16px;
+    height: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -168,7 +185,7 @@ input {
 }
 
 .i p {
-    margin-left: 12px;
+    margin-left: 9px;
 }
 
 /*MAIN*/
@@ -180,16 +197,17 @@ main {
 /*HEBERGEMENTS*/
 
 .H_section {
-    max-width: 67%;
-    height: auto;
-    margin-right: 3%;
+    padding-right: 3%;
 }
 
 .H_container {
-    height: 100%;
     background-color: var(--background-color);
-    border-radius: 20px;
-    padding: 48px 40px;
+    border-radius: 15px;
+    padding: 32px 27px;
+}
+
+.H_container h1 {
+    margin-bottom: 16px;
 }
 
 .cardH_container {
@@ -199,60 +217,78 @@ main {
 }
 
 .cardH {
-    width: 250px;
-    height: 202px;
+    width: 170px;
+    height: 137px;
     display: flex;
     flex-direction: column;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 12px;
     box-shadow: var(--shadow-color) 0 0 15px;
-    margin-top: 32px;
-    padding: 5px;
+    margin-bottom: 21px;
+    padding: 4px;
 }
 
 .cardH a {
+    width: 100%;
+    height: 100%;
     text-decoration: none;
 }
 
 .cardH_img {
     width: 100%;
-    height: 116px;
+    height: 60.4%;
 }
 
 .cardH img {
     width: 100%;
     height: 100%;
-    border-radius: 15px 15px 0 0;
+    border-radius: 9px 9px 0 0;
 }
 
 .cardH_text {
-    height: 76px;
+    height: 39.6%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 12px 0 5px 12px;
+    padding: 7px 7px 3px 7px;
 }
 
 .cardH_more {
-    margin-top: 42px;
+    margin-top: 9px;
+}
+
+.cardH_more a {
+    text-decoration: none;
+    color: black;
+}
+
+.stars {
+    height: 8px;
+    display: flex;
+    align-items: center;
+}
+
+#star {
+    font-size: 8px;
+    margin-right: 1.5px;
 }
 
 /*POPULAR*/
 
-aside {
-    max-width: 30%;
-    height: 100%;
-}
-
 .P_container {
+    height: 100%;
     background-color: var(--background-color);
-    border-radius: 20px;
-    padding: 48px 40px;
+    border-radius: 15px;
+    padding: 25px 32px 0px 25px;
 }
 
 .P_container_title {
     display: flex; 
     justify-content: space-between;
+}
+
+.P_container_title h2 {
+    margin-bottom: 18px;
 }
 
 .cardP_container {
@@ -262,12 +298,12 @@ aside {
 }
 
 .cardP {
-    width: 100%;
-    height: 146px;
+    width: 236px;
+    height: 100px;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 15px;
     box-shadow: var(--shadow-color) 0 0 15px;
-    margin-top: 32px;
+    margin-bottom: 22px;
     padding: 5px;
  }
 
@@ -286,7 +322,7 @@ aside {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 15px 0 0 15px;
+    border-radius: 9px 0 0 9px;
  }
 
  .cardP_text {
@@ -302,9 +338,13 @@ aside {
 
 /*ACTIVITIES*/
 
+.A_container {
+    padding-bottom: 42px;
+}
+
 .A_container h2 {
-    margin-top: 66px;
-    margin-bottom: 28px;
+    margin-top: 45px;
+    margin-bottom: 19px;
 }
 
 .cardA_container {
@@ -317,10 +357,10 @@ aside {
 }
 
 .cardA_H {
-    width: 310px;
-    height: 454px;
+    width: 208px;
+    height: 306px;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 15px;
     box-shadow: var(--shadow-color) 0 0 15px;
 }
 
@@ -333,7 +373,7 @@ aside {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 20px 20px 0 0;
+    border-radius: 15px 15px 0 0;
 }
 
 .cardA_H_text {
@@ -350,8 +390,8 @@ aside {
 }
 
 .cardA_W {
-    width: 310px;
-    height: 242px;
+    width: 208px;
+    height: 162px;
     background-color: white;
     border-radius: 20px;
     box-shadow: var(--shadow-color) 0 0 15px;
@@ -370,8 +410,8 @@ aside {
 }
 
 .cardA_mini {
-    width: 310px;
-    height: 168px;
+    width: 208 px;
+    height: 114px;
     background-color: white;
     border-radius: 20px;
     box-shadow: var(--shadow-color) 0 0 15px;
@@ -390,24 +430,28 @@ aside {
 }
 
 /*FOOTER*/
+
 footer {
-    width: 100%;
-    height: auto;
+    width: 1920px;
+    height: 100%;
+    background-color: var(--background-color);
+}
+
+.footer_container {
     display: flex;
     justify-content: start;
-    background-color: var(--background-color);
-    margin-top: 62px;
-    padding-top: 50px;
-    padding-bottom: 35px;
-    padding-left: 276px;
+    padding-top: 34px;
+    padding-bottom: 24px;
+    padding-left: 26%;
 }
 
 .footer_category {
-    margin-right: 298px;
+    width: 158px; 
+    margin-right: 157px;
 }
 
 footer p {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
 footer ul {
@@ -415,7 +459,7 @@ footer ul {
 }
 
 footer li {
-    margin-bottom: 20px;
+    margin-bottom: 14px;
 }
 
 footer a {
