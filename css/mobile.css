@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
 .container {
     padding: 0;
@@ -135,10 +135,6 @@ aside {
 
 footer p {
     margin-bottom: 18px;
-}
-
-footer li {
-    margin-bottom: ;
 }
 
 
