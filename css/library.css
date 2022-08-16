@@ -13,6 +13,15 @@
         --P3Size: 10px;
 }
 
+@media (max-width: 992px) {
+    :root {
+        --H1H2Size: 17px;
+        --H3P1Size: 13px;
+        --P2Size: 15px;
+        --P3Size: 11px;
+    }
+}
+
 body {
     font-family: 'Raleway', sans-serif;
 }

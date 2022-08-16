@@ -1,0 +1,119 @@
+@media (max-width: 768px) {
+    
+.container {
+    padding: 0;
+}
+
+
+/*INFORMATIONS SEARCH FILTRES FILTERS_PART I*/
+.informations, .search, .filters_part, .i {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+
+/*search*/
+.search {
+    height: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+form {
+    width: 100%;
+    height: 40px;
+}
+
+.location,  .search_button{
+    width: 15.3%;
+}
+
+.search_bar {
+    width: 84.7%;
+}
+
+
+/*i*/
+.i {
+    height: 77px; 
+}
+
+/*MAIN*/
+main {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+
+/*HEBERGEMENTS*/
+.H_section {
+    width: 100%;
+    padding-right: 0%;
+}
+
+.H_container {
+    background-color: white;
+    border-radius: 0px;
+    padding: 32px 16px;
+}
+
+.cardH_container {
+    display: block;
+}
+
+.cardH {
+    width: 100%;
+    height: 156px;
+    margin-bottom: 8px;
+}
+
+.cardH_more {
+    margin-top: 20px;
+}
+
+/*POPULAR*/
+aside {
+    width: 100%;
+}
+
+.P_container {
+    border-radius: 0px;
+    padding: 32px 9px 0px 9px;
+}
+
+.cardP {
+    width: 100%;
+    height: 115px;
+    margin-bottom: 8px;
+ }
+
+ .cardA_H, .cardA_W, .cardA_mini {
+    width: 100%;
+    height: 152px;   
+}
+
+.A_container {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 40px;
+}
+
+.footer_container {
+    display: block;
+    padding-left: 39%;
+}
+
+.footer_category {
+    width: 100%;
+    margin-bottom: 37px;
+}
+
+footer p {
+    margin-bottom: 18px;
+}
+
+footer li {
+    margin-bottom: 16px;
+}
+
+}
