@@ -15,7 +15,6 @@ body {
 .container {
     max-width: 992px;
     max-height: 100%;
-    background-color: aqua;
     padding-left: 35px;
     padding-right: 35px;
 }
@@ -45,6 +44,14 @@ nav ul{
     list-style: none;
 }
 
+#ancre_hebergements a{
+    color: var(--primary-color);
+}
+
+#ancre_activites:hover > a {
+    color: var(--primary-color);
+}
+
 
 /*INFORMATIONS*/
 .informations {
@@ -57,7 +64,7 @@ nav ul{
     margin-bottom: 12px;
 }
 
-/*search*/
+/*SEARCH*/
 .search {
     height: 69px;
     display: flex;
@@ -81,38 +88,35 @@ form {
     border-radius: 10px 0px 0px 10px;
 }
 
-.search_bar {
+input {
     width: 55%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: start ;
     background-color: white;
+    border: none;
     padding-left: 12px;
     padding-right: 12px;
 }
 
-.search_bar input {
-    width: 100%;
-    height: 24px;
-    border: none;
-}
-
-.search_button {
+button {
     width: 30%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 0px 10px 10px 0px;
-}
-
-.search_button input {
-    width: 100%;
-    height: 100%;
     background-color: var(--primary-color);
+    color: white;
     border-radius: 0 10px 10px 0;
     border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0755ca;
+    box-shadow: var(--shadow-color) 0 0 10px 0;
+
 }
 
 
@@ -122,7 +126,7 @@ form {
     align-items: center;
 }
 
-.filters_title {
+.filters_part p {
     padding: 0px 23px 0px 7px;
 }
 
@@ -144,6 +148,18 @@ form {
     margin-right: 17px;
 }
 
+.filters:hover {
+    background-color: var(--secondary-color);
+    cursor: pointer;
+}
+
+.filters:hover > .filters_logo {
+    background-color: white;
+    border: 2px solid;
+    border-color: var(--background-color);
+}
+
+
 .filters_text {
     padding: 0 18px 0 10px;
 }
@@ -158,6 +174,8 @@ form {
     border-radius: 20px;
     z-index: 1;
 }
+
+
 
 .filters_logo i {
     color: var(--primary-color);
@@ -229,6 +247,11 @@ main {
     padding: 4px;
 }
 
+.cardH:hover {
+    transform: scale(1.02);
+    transition: smooth;
+}
+
 .cardH a {
     width: 100%;
     height: 100%;
@@ -284,7 +307,6 @@ main {
     padding: 32px 25px 0px 25px;
 }
 
-
 .P_container_title {
     display: flex; 
     justify-content: space-between;
@@ -309,6 +331,11 @@ main {
     margin-bottom: 22px;
     padding: 5px;
  }
+
+ .cardP:hover {
+    transform: scale(1.02);
+    transition: smooth;
+}
 
  .cardP a {
     width: 100%;
@@ -335,8 +362,8 @@ main {
     padding: 14px 0 10px 20px;
  }
 
- .cardP_text_infos h3 {
-    margin-bottom: 14px;
+ .cardP_text_infos p {
+    margin-top: 5%;
  }
 
 
@@ -353,6 +380,11 @@ main {
 .cardA_container {
     display: flex;
     justify-content: space-between;
+}
+
+.cardA_H:hover, .cardA_W:hover, .cardA_mini:hover {
+    transform: scale(1.02);
+    transition: smooth;
 }
 
 .cardA_H a, .cardA_W a, .cardA_mini a {
@@ -441,6 +473,7 @@ footer {
 }
 
 .footer_container {
+    width: 100%;
     display: flex;
     justify-content: start;
     padding-top: 34px;

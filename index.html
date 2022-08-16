@@ -30,11 +30,11 @@
                 <!--NAV-->
                 <nav>
                     <ul>
-                        <li>
-                            <a href="#">Hébergements</a>
+                        <li id="ancre_hebergements">
+                            <a href="#hebergements">Hébergements</a>
                         </li>
-                        <li>
-                            <a href="#">Activités</a>
+                        <li id="ancre_activites">
+                            <a href="#activites">Activités</a>
                         </li>
                     </ul>
                 </nav>
@@ -52,20 +52,14 @@
                         <div class="location">
                             <i class="fa-solid fa-location-dot"></i>
                         </div>
-                        <div class="search_bar">
-                            <input type="search" name="search" placeholder="Recherchez-ici !">     
-                        </div>
-                        <div class="search_button">
-                            <input type="button" placeholder="Rechercher">
-                        </div>
+                            <input type="search" name="Recherchez-ici" placeholder="Recherchez-ici !">     
+                            <button type="button" name="Rechercher">Rechercher</button>     
                     </form>   
             </div>
 
             <!--FILTRES-->
             <div class="filters_part">
-                <div class="filters_title">
-                    <p>Filtres</p>
-                </div>
+                <p>Filtres</p>
                 <div class="filters_container">
                     <div class="filters">
                         <div class="filters_logo">
@@ -105,17 +99,18 @@
             <!--i-->
             <div class="i">
                 <div class="i_content">
-                    <div class="i_logo">
+            <div class="i_logo">
                         <i class="fa-solid fa-info fa-2xs"></i>    
                     </div>
                     <p>Plus de 500 logements sont disponibles dans cette ville</p>
-                </div>             
+                </div>
+               
             </div>
                         
             <!--MAIN-->
                 <main>
                     <!--HEBERGEMENTS-->
-                    <section class="H_section">
+                    <section class="H_section" id="hebergements">
                         <div class="H_container">
                             <h1>Hébergements à Marseille</h1>
                             <div class="cardH_container">
@@ -308,7 +303,7 @@
                 </main>    
 
             <!--ACTIVITIES-->
-            <div class="A_container">
+            <div class="A_container" id="activites">
                     <h2>Activités à Marseille</h2>
                     <div>
                         <div class="cardA_container">
@@ -380,8 +375,7 @@
                     </div>
                </div>      
             </div>
-            
-        
+
 
             <!--FOOTER-->
         <footer>
