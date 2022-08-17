@@ -64,6 +64,7 @@ nav li {
     height: 40px;
 }
 
+
 /*MAIN*/
 main {
     display: flex;
@@ -126,11 +127,8 @@ aside {
     height: 29.6%;
 }
 
-/*FOOTER*/
-.footer_container {
-    padding-left: 32%;
-}
 
+/*FOOTER*/
 .footer_category {
     margin-right: 130px;
 }

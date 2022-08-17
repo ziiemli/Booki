@@ -42,6 +42,18 @@ form {
     width: 84.7%;
 }
 
+#search_text {
+    display: none;
+}
+
+input {
+    width: 65%;
+}
+
+button {
+    width: 20%;
+    border-radius: 10px;
+}
 
 /*i*/
 .i {
@@ -125,7 +137,6 @@ aside {
 /*FOOTER*/
 .footer_container {
     display: block;
-    padding-left: 39%;
 }
 
 .footer_category {
@@ -137,6 +148,15 @@ footer p {
     margin-bottom: 18px;
 }
 
+}
+
+
+@media screen and (min-width: 768px) {
+
+/*SEARCH*/
+#search_icon {
+    display: none;
+}
 
 }
 

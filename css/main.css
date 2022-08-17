@@ -116,7 +116,6 @@ button {
 button:hover {
     background-color: #0755ca;
     box-shadow: var(--shadow-color) 0 0 10px 0;
-
 }
 
 
@@ -159,9 +158,8 @@ button:hover {
     border-color: var(--background-color);
 }
 
-
 .filters_text {
-    padding: 0 18px 0 10px;
+    padding-left: 10px;
 }
 
 .filters_logo {
@@ -174,8 +172,6 @@ button:hover {
     border-radius: 20px;
     z-index: 1;
 }
-
-
 
 .filters_logo i {
     color: var(--primary-color);
@@ -475,10 +471,11 @@ footer {
 .footer_container {
     width: 100%;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     padding-top: 34px;
     padding-bottom: 24px;
-    padding-left: 26%;
+    padding-left: 35px;
+    
 }
 
 .footer_category {
@@ -501,4 +498,3 @@ footer li {
 footer a {
     text-decoration: none;
 }
-
