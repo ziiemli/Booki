@@ -37,7 +37,7 @@ nav a {
 
 h1, h2 {
     font-size: var(--H1H2Size);
-    font-weight: bold 600;
+    font-weight: bold;
 }
 
 h3 {
@@ -45,13 +45,18 @@ h3 {
     color: black;
 }
 
+p {
+    color: black;
+}
+
 .stars {
     color: var(--primary-color);
 }
 
-#star_gray {
+.star_gray {
     color: #D9D9D9;
 }
+
 strong {
     color: black;
 }

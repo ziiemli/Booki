@@ -45,6 +45,7 @@ nav li {
     color: var(--primary-color);
 }
 
+
 /*FILTRES*/
 .filters_part {
     flex-wrap: wrap;
@@ -64,6 +65,17 @@ nav li {
     height: 40px;
 }
 
+
+/*I*/
+.i_content {
+    display: flex;
+    align-items: center;
+}
+.i_logo {
+    min-width: 25px;
+    min-height: 25px;
+    font-size: 20px;
+}
 
 /*MAIN*/
 main {
