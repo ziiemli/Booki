@@ -97,6 +97,9 @@ aside {
     width: 32%;
 }
 
+.cardP_text {
+    padding: 10px 0 6px 12px;
+}
 
 /*ACTIVITIES*/
 .cardA_container {

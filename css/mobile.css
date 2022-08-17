@@ -112,8 +112,12 @@ aside {
     margin-bottom: 8px;
  }
 
+ .cardP_img {
+    height: 115px;;
+ }
+
  .cardP_text_infos p {
-    margin-top: 15%;
+    margin-top: 13%;
  }
 
  /*ACTIVITES*/
@@ -137,6 +141,7 @@ aside {
 /*FOOTER*/
 .footer_container {
     display: block;
+    padding-bottom: 0;
 }
 
 .footer_category {
@@ -146,6 +151,10 @@ aside {
 
 footer p {
     margin-bottom: 18px;
+}
+
+footer li {
+    margin-bottom: 10px;
 }
 
 }
