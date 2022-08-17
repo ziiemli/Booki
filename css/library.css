@@ -29,6 +29,9 @@ body {
 /*HEADER*/
 nav {
     font-size: var(--H3P1Size);
+}
+
+nav a {
     color: black;
 }
 
