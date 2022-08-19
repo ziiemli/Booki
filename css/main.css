@@ -120,7 +120,7 @@ button:hover {
 }
 
 .filters_part p {
-    padding: 0px 23px 0px 7px;
+    padding: 0px 13px 0px 7px;
 }
 
 .filters_container {
@@ -152,9 +152,7 @@ button:hover {
     border-color: var(--background-color);
 }
 
-.filters_text {
-    padding-left: 10px;
-}
+
 
 .filters_logo {
     width: 34px;
