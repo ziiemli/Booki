@@ -26,18 +26,32 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 22px 19px 34px 14px;
+    padding: 0px 19px 34px 14px;
 }
 
 header img {
     width: 66px;
     height: auto;
+    padding-top: 22px;
 }
 
 nav ul{
-    width: 166px;
     display: flex;
     justify-content: space-between;
+}
+
+nav li {
+    width: 112px;
+    height: 53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 22px;
+}
+
+nav li:hover {
+    border-top: 2px solid;
+    color: var(--primary-color);
 }
 
 #ancre_hebergements a, #ancre_activites:hover > a {
